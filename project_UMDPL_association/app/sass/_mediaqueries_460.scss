@@ -1,0 +1,182 @@
+
+@media screen and (max-width: 460px) {
+	.title-block {
+		padding: 15px 14px 18px;
+		font-size: 18px;
+		letter-spacing: -.5px;
+		line-height: 18px;
+		
+		&::before {
+			top: 0;
+			left: -74px;
+			width: 106px;
+			height: 14px;
+			font-size: 7px;
+		}
+	}
+
+	.mobile-menu-icon {
+		top: 11px;
+		right: 11px;
+	}
+
+	.test-section {
+	    padding: 0;
+	}
+
+	.block-video {
+		height: 182px;
+		padding-top: 0;
+	}
+
+	.button-play {
+		width: 50px;
+		height: 50px;
+		background-size: 49px;
+    	background-repeat: no-repeat;
+    	
+    	&:hover {
+    		background-size: 49px;
+    		background-repeat: no-repeat;
+    	}
+	}
+
+	.menu_row {
+		padding: 0;
+		
+	}
+
+	.h2-fs48-geometria-fw800 {
+		font-size: 25px;
+	}
+
+	.block-test {
+	    padding: 31px 0 0;
+	    
+	  &__text {
+		font-size: 16px;
+		line-height: 21px;
+		padding: 15px 24px 50px;
+		}
+
+		&__btn {
+			margin: 3px 6px 8px;
+			padding: 9px 30px 9px 37px;
+		}
+	}
+
+	.share {
+		margin: 26px 0 0;
+		
+		&-item {
+			width: 70px;
+   			height: 59px;
+		}
+	}
+
+	.line_below {
+		height: 21px;
+		margin: 0 6px;
+	}
+
+	.lections-section h2 {
+	    padding: 34px 0 0;
+	}
+
+	.lections-block {
+		max-width: 100%;
+		width: 100%;
+		
+		&:nth-of-type(n+3) {
+			display: none;
+		}
+	}
+
+	.lections-wrapper {
+	    padding: 40px 20px 52px;
+	}
+
+	.img-block {
+		height: 177px;
+	}
+
+	.lectors-section h2 {
+	    padding: 38px 0 0;
+	}
+
+	.lectors-block:nth-child(odd) {
+		border-right: none;
+	}
+
+	.lectors-section .lectors-slider {
+		margin: 14px 50px;
+	}
+
+	.person-image {
+	    width: 196px;
+	    height: 196px;
+	}
+
+	.person-name {
+		padding: 8px 0 0;
+	}
+
+	.person-position {
+		padding: 5px 0;
+	}
+
+	.lectors-section {
+		    padding-bottom: 103px;
+	}
+
+	.lectors-section .section-wrapper {
+		padding-bottom: 0;
+	}
+
+	.lectors-section .lectors-slider {
+		margin: 0;
+	}
+
+	.about-project-section .section-wrapper {
+		padding: 39px 14px 47px
+	}
+
+	.single-line_below__dark {
+	    margin: 34px auto 15px;
+	}
+
+	.about-project__text {
+		font-size: 16px;
+		line-height: 21px;
+	}
+
+	.about-project__text {
+	    margin: 21px 0 0;
+	}
+
+	.labels-item:first-of-type img, 
+	.labels-item:nth-of-type(2) img {
+		margin: 15px auto;
+		height: auto;
+	}
+
+	.labels-item:nth-of-type(2) img {
+		margin: 15px 13px;
+	}
+
+	.author-rights {
+		padding: 26px 16px 23px;
+	}
+
+	.footer-block:nth-of-type(2) {
+		padding: 0 17px 13px 17px;
+	}
+
+	.footer-block:nth-of-type(3) a {
+		width: 100%;
+		margin: 19px 6px 18px;
+	}
+
+
+} 
+

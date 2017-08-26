@@ -1,0 +1,47 @@
+.single-lection-page {
+	background: $bg-dark-grey;
+	
+	.section-wrapper {
+		@include flex-column;
+	}
+	
+	.line_below {
+	    height: 30px;
+	    width: 100px;
+	    margin: 0 43px;
+	    font-size: 48px;
+	}
+}
+
+.lection-page-title {
+	@include flex-container;
+	color: $yellow;
+	margin: auto;
+	font-family: 'Geometria Bold';
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 43px;
+	text-align: center;
+}
+
+.lection-slider-wrapper {
+	max-width: 1366px;
+	width: 100%;
+	// width: 885px;
+	height: 500px;
+	margin: auto;
+	// background-color: rgba(0, 0, 0, .4);
+}
+
+.lection-block__item {
+	margin: auto;
+	
+	img{
+		width: 885px;
+		height: 500px;
+	}
+}
+
+.lection-slider {
+	height: 500px;
+}
