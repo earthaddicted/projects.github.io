@@ -49,7 +49,7 @@ header .section-wrapper {
 
 .title-item__underline {
 	display: inline-block;
-	border-bottom: 2px solid $yellow;
+	border-bottom: 4.5px solid $yellow;
 }
 
 .header-navigation {
@@ -290,6 +290,7 @@ header .section-wrapper {
 	height: 358px;
 	border-top: 1px solid $grey-line-transparent-1;
 	border-bottom: 1px solid $grey-line-transparent-1;
+	transition: .3s ease-in-out;
 	
 	&:hover {
 		background-color: #ffde00;
@@ -303,35 +304,6 @@ header .section-wrapper {
 	}
 }
 
-.lections-block__item {
-	width: 100%;
-	max-width: 316px;
-	height: 100%;
-	overflow: hidden;
-	transition: .3s ease-in-out;
-	border-right: 1px solid $grey-line-transparent-1;
-	border-left: 1px solid $grey-line-transparent-1;
-	
-	&:hover {
-		background-color: #ffde00;
-
-		.lection-number {
-			color: $white;
-		}
-
-		.lection-title {
-			color: $black;
-		}
-
-		.approximate-time {
-			color: rgba(1, 1, 1, .3);
-		}
-
-		.img-block {
-			width: 318px;
-		}
-	}
-}
 
 .img-block {
 	width: 100%;
@@ -341,7 +313,7 @@ header .section-wrapper {
 	transition: .2s ease-in-out;
 	
 	&:hover {
-		// @include transition-ease-in-out;
+		@include transition-ease-in-out;
 	}
 	
 	img {
@@ -382,7 +354,7 @@ header .section-wrapper {
 	font-size: 12px;
 	text-transform: uppercase;
 	cursor: pointer;
-	@include transition-ease-in-out;
+	transition: .3s ease-in-out;
 }
 
 .lection-title {
@@ -392,6 +364,7 @@ header .section-wrapper {
 	line-height: 29px;
     padding: 2px 0 9px;
     @include transition-ease-in-out;
+    transition: color .4s ease-in-out;
 }
 
 .approximate-time {
@@ -402,6 +375,41 @@ header .section-wrapper {
 	margin: 11px 0;
 	letter-spacing: 2px;
 	@include transition-ease-in-out;
+}
+
+
+.lections-block__item {
+	width: 100%;
+	max-width: 316px;
+	height: 100%;
+	overflow: hidden;
+	transition: .3s ease-in-out;
+	border-right: 1px solid $grey-line-transparent-1;
+	border-left: 1px solid $grey-line-transparent-1;
+	background-color: transparent;
+	transition: .3s ease-in-out;
+	
+	
+
+	&:hover {
+		// background-color: #ffde00;
+
+		.lection-number {
+			color: $white;
+		}
+
+		.lection-title {
+			color: $black;
+		}
+
+		.approximate-time {
+			color: rgba(1, 1, 1, .3);
+		}
+
+		.img-block {
+			width: 318px;
+		}
+	}
 }
 
 /* ----- SECTION LECTIONS END ----- */
@@ -603,7 +611,7 @@ footer {
 		&:first-of-type {
 			width: 126px;
 			height: 106px;
-		}
+			padding: 10px 24px 10px 17px;		}
 	}
 }
 
