@@ -434,4 +434,205 @@
 		right: 5%;
 	}
 
+	/*  ----- LECTION PAGE ------  */
+	.lection-slider-section .section-wrapper {
+        padding: 24px 0 69px;
+	}
+	
+	.lection-slider-wrapper {
+		// max-width: 600px;
+		max-width: 716px;
+    	padding: 0 58px;
+	}
+
+	.lection-block__item {
+		max-width: 710px;
+		// padding: 0 55px;
+		
+		img {
+			width: 100%;
+			height: 338px;
+		}
+	}
+
+	.lection-slider {
+		margin: 29px 0 0;
+		height: 338px;
+		overflow: visible;
+		
+		div {
+			margin: auto;
+		}
+	}
+
+	// .lection-slider div {
+		
+	// }
+
+	.lection-slider .slick-center {
+	    width: 599px;
+		height: 338px;
+	}
+
+	.lection-slider .slick-arrow {
+		top: 43.3%;
+		background-size: 11px;
+		width: 20px;
+    	height: 20px;
+    	
+    	&:hover {
+    		top: 43.3%;
+		    background-size: 11px;
+		    width: 20px;
+		    height: 20px;
+    	}
+	}
+
+	.lection-slider .slick-next {
+		right: -56px;
+	}
+
+	.lection-slider .slick-prev {
+	    left: -56px;
+	}
+
+	.lection-addinfo {
+	    max-width: 603px;
+	    display: flex;
+	    flex-wrap: wrap;
+	    
+	    // button {
+	    	
+	    // }
+	}
+
+	.btn-info-text,
+	.btn-audio {
+		margin-left: 5px;
+		margin-bottom: 20px;
+	}
+
+	.lection-additional-block {
+		-webkit-flex-wrap: wrap;
+		    -ms-flex-wrap: wrap;
+		        flex-wrap: wrap;
+	    margin: 20px 0 21px;
+	}
+
+	.btn-info-text  {
+	    padding: 11px 85px 11px 74px;
+	}
+
+	.btn-lection-info {
+		display: flex;
+		-webkit-flex-wrap: wrap;
+		    -ms-flex-wrap: wrap;
+		        flex-wrap: wrap;
+		position: relative;
+		
+	}
+
+	.lection-slider .slick-slide {
+		opacity: 1;
+	}
+
+	.btn-questions {
+		margin: auto;
+		padding: 11px 34px 10px 64px;
+	}
+
+	.btn-audio {
+	    padding: 10px 33px 9px 79px;
+	    
+	    &::before {
+	    	top: 13px;
+    		left: 38px;
+	    }
+	}
+
+	.lection-share-block p {
+		padding: 8px 2px 2px 20px;
+	}
+
+	.lection-documents-section .line_below,
+	.QA-section .line_below {
+		max-width: 100px;
+	}
+
+	.lection-documents-section .section-wrapper {
+	    padding: 67px 0 8px;
+	}
+
+	/*  -----  ------  */
+	
+	.document-wrapper {
+	    margin: 49px 29px 45px;
+	}
+
+	.document-block {
+		-webkit-flex-wrap: wrap;
+		    -ms-flex-wrap: wrap;
+		        flex-wrap: wrap;
+	}
+
+	.document-item {
+    	width: 47.2%;
+    	margin-bottom: 31px;
+    	
+    	&__title {
+    		height: 133px;
+    		
+    		&::before {
+    			height: 100%;
+    			max-height: 112px;
+    		}
+    		
+    		&::after {
+    			width: 100%;
+    			max-width: 400px;
 }
+
+    	}
+
+    	&:not(:last-of-type) {
+    		margin-right: 0;
+    	}
+    }
+
+    .show-more {
+	    margin: 16px auto 10px;
+	    padding: 13px 29px 14px 36px;
+	}
+
+	/*  ----- ------  */
+	
+	.accordionWrapper {
+		margin: 24px 0 34px;
+	}
+
+	.accordionItem {
+		display: block;
+	}
+
+	.open .accordionItemHeading, 
+	.close .accordionItemHeading {
+	    max-width: 714px;
+	}
+
+	.open .accordionItemHeading {
+	    margin-top: 14px;
+	    padding: 10px 0 12px 49px;
+	}
+
+	.open .accordionItemContent {
+	    padding: 10px 0 2px 54px;
+	}
+
+    
+	/*  ----- LECTION PAGE END ------  */
+	
+	/*  -----  ------  */
+
+}
+
+/*  ----- ------  */

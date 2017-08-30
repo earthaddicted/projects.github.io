@@ -88,6 +88,11 @@
 		width: 100%;
 	}
 
+	.cos-block__footer {
+		    display: flex;
+    		justify-content: space-around;
+	}
+
 	footer .section-wrapper {
 		justify-content: center;
 		text-align: center;
@@ -203,3 +208,198 @@
 	    padding: 0 10px;
 	}
 }
+
+@media screen and (max-width: 700px) {
+	.lection-additional-block {
+		-webkit-justify-content: center;
+		        justify-content: center;
+	}
+
+	.lection-additional-block {
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		margin: 75px auto 21px;
+		flex-direction: column;
+	}
+
+	.QA-section {
+	    background: #ebedf0;
+	    padding: 0 20px;
+	}
+
+	.lection-slider .slick-prev {
+	    left: 40%;
+	    bottom: -65px;
+	    top: auto;
+	}
+
+	.lection-slider .slick-next {
+	    right: 40%;
+	    bottom: -65px;
+	    top: auto;
+	}
+
+	.btn-info-text, .btn-audio {
+		margin-left: 0;
+	}
+
+	.btn-questions {
+	    margin: auto;
+	    padding: 11px 42px 10px 79px;
+	}
+}
+
+@media screen and (max-width: 530px) {
+	/*  LECTION PAGE*/
+
+	.lection-documents-section .line_below, 
+	.QA-section .line_below {
+		display: none;
+	}
+
+	.lection-page-title {
+		line-height: 35px;
+	}
+
+	.lection-block__item {
+    	max-width: 420px;
+    	height: 237px;
+	}
+
+	.lection-block__item img {
+		// width: 420px;
+		height: 100%;
+	}
+
+	.lection-slider-section .section-wrapper {
+	    padding: 24px 30px 47px;
+	}
+
+	.single-lection-page .line_below {
+	    width: 71px;
+	    margin: 0 21px;
+	}
+
+	.lection-slider-wrapper {
+	    padding: 0;
+	}
+
+	.lection-slider .slick-slide,
+	.lection-slider {
+		height: 237px;
+	}
+
+	.lection-slider .slick-prev {
+	    left: 38%;
+	    bottom: -60px;
+	    top: auto;
+	}
+
+	.lection-slider .slick-next {
+	    right: 38%;
+	    bottom: -60px;
+	    top: auto;
+	}
+
+	.lection-additional-block {
+		width: 100%;
+		margin: 83px auto 28px;
+	}
+
+	.btn-info-text, .btn-audio {
+	    margin-bottom: 10px;
+	}
+
+	.btn-audio {
+	    padding: 10px 33px 11px 79px;
+	    justify-content: center;
+	}
+
+	.btn-audio::before {
+    	left: 24%;
+	}
+
+	.btn-questions {
+		width: 100%;
+		margin-left: 0;
+		justify-content: center;
+	}
+
+
+	.btn-questions::before {
+	    top: 16px;
+	    left: 25%;
+	}
+
+	.lection-share-block {
+		padding: 20px 0 24px;
+	}
+
+
+	.lection-share {
+	    margin: 0 0 0 20px;
+	}
+	/*  */
+	
+	.lection-documents-section .section-wrapper {
+	    padding: 41px 0 8px;
+	}
+
+	.document-wrapper {
+	    margin: 39px 29px 33px;
+	}
+
+	.document-item {
+	    width: 100%;
+	    margin-bottom: 10px;
+	}
+
+	.document-item__title {
+	    height: 116px;
+	}
+
+	.document-item:last-of-type {
+		display: none;
+	}
+
+	.show-more {
+	    margin: 19px auto 10px;
+	}
+
+	/*  */
+	.QA-section {
+		padding: 0;
+	}
+
+	.QA-section .section-wrapper {
+	    padding: 45px 0 127px;
+	}
+
+	.accordionWrapper {
+	    margin: 6px 0 27px;
+	}
+
+	.open .accordionItemContent {
+	    padding: 1px 20px 0px 68px;
+	}
+
+	.open .accordionItemHeading {
+	    margin-top: 14px;
+	    padding: 10px 20px 12px 68px;
+	}
+
+	.numeration-item {
+	    left: 32px;
+	}
+
+	.lection-addinfo button:hover {
+	    -webkit-box-shadow: 0 17px 27px 4px rgba(0, 0, 0, 0.43);
+	    box-shadow: 0 7px 7px 4px rgba(0, 0, 0, 0.43);
+	}
+
+	/*  LECTION PAGE END */
+}
+
+
+/*  */

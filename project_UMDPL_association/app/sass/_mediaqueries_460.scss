@@ -178,5 +178,157 @@
 	}
 
 
+	/*  LECTION PAGE */
+	.lection-slider-section .section-wrapper {
+	    padding: 51px 0 33px;
+	}
+
+	.lection-page-title {
+		font-size: 14px;
+	}
+
+	.single-lection-page .line_below {
+	    width: 35px;
+	    margin: 0 15px;
+	}
+
+	.single-lection-page .h2-fs48-geometria-fw800 {
+	    font-size: 25px;
+	    margin: 7px 0;
+	    line-height: 30px;
+	}
+
+	.lection-slider {
+	    margin: 9px 0 0;
+	    height: 182px;
+	    overflow: visible;
+	}
+
+	.lection-block__item,
+	.lection-slider .slick-slide, 
+	.lection-slider {
+		height: 182px;
+	}
+
+	.lection-slider .slick-prev {
+	    left: 34%;
+	    bottom: -54px;
+	}
+
+	.lection-slider .slick-next {
+	    right: 34%;
+	    bottom: -54px;
+	}
+
+	.lection-additional-block {
+		width: auto;
+		margin: 70px auto 26px;
+	}
+
+	.btn-audio::before {
+	    left: 13%;
+	}
+
+	.btn-questions::before {
+	    top: 12px;
+	    left: 15.7%;
+	}
+
+	.lection-additional-block {
+	    width: auto;
+	    margin: 70px auto 19px;
+	}
+
+	/*  */
+	.lection-share-block {
+	    padding: 17px 0 21px;
+	}
+
+	.lection-share-block p {
+	    font-size: 13px;
+	   	padding: 8px 3px 2px 13px;
+	}
+
+	.lection-share .fa {
+	    margin-right: 15px;
+	    font-size: 19px !important;
+	}
+	
+	.lection-share {
+		@include flex-container;
+		@include flex-align-items-center;
+	    margin: 0 0 0 16px;
+	    
+	    a {
+	    	&:first-of-type {
+			    margin-right: 15px;
+			}
+	    }
+	}
+
+	/*  */
+	.single-lection-page .h2-fs48-geometria-fw800 {
+	    margin: 7px auto;
+	}
+
+	.lection-documents-section .section-wrapper {
+	    padding: 24px 0 8px;
+	}
+
+	.document-wrapper {
+	    margin: 22px 20px 30px;
+	}
+
+	.document-item__type-name::after {
+	    top: -3px;
+	    right: 6px;
+	    width: 28px;
+	    height: 34px;
+	}
+
+	.document-item__title {
+	    height: 136px;
+	}
+
+	.document-item {
+	    margin-bottom: 19px;
+	}
+
+
+	.show-more {
+		width: 100%;
+	    margin: 9px auto 10px;
+	    padding: 12px 29px 14px 36px;
+	}
+
+	/*  */
+	.QA-section .section-wrapper {
+	    padding: 40px 0 127px;
+	}
+
+	.accordionWrapper {
+	    margin: -2px 0 27px;
+	}
+
+	.numeration-item {
+		top: -2px;
+		left: 22px;
+		font-size: 16px;
+	}
+
+	.open .accordionItemHeading {
+	    padding: 10px 20px 8px 53px;
+	    line-height: 20px;
+	}
+
+	.open .accordionItemContent {
+	    padding: 0 20px 0 52px;
+	    line-height: 23px;
+	}
+
+	/*  LECTION PAGE END */
+
 } 
+
+/*  */
 
