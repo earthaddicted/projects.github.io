@@ -52,11 +52,10 @@ table {
   font-style: normal; }
 
 @font-face {
-    font-family: 'Circe Bold';
-    src: url('../fonts/circe/Circe-Bold.otf');
-    font-weight: normal;
-    font-style: normal;
-}
+  font-family: 'Circe Bold';
+  src: url("../fonts/circe/Circe-Bold.otf");
+  font-weight: normal;
+  font-style: normal; }
 
 /*  FLEX SETTINGS */
 /*  FLEX SETTINGS END */
@@ -116,9 +115,21 @@ main {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   list-style: none;
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Circe Bold', sans-serif; }
   *:focus, *:hover {
     outline: transparent; }
+
+@font-face {
+  font-family: 'Circe Extra Bold';
+  src: url("../fonts/circe/Circe-ExtraBold.otf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Circe Bold';
+  src: url("../fonts/circe/Circe-Bold.otf");
+  font-weight: normal;
+  font-style: normal; }
 
 /* ============= HEADER ============= */
 /* ============= HEADER END ============= */
@@ -138,7 +149,7 @@ body {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-image: url("../images/bg-video2.png");
+  background-image: url("../../images/bg-video2.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat; }
@@ -200,14 +211,15 @@ header .block-wrapper {
 
 .block-wrapper {
   text-align: center; }
-  .block-wrapper h1,
-  .block-wrapper h2 {
-    color: #000;
-    font-family: 'Circe Bold';
-    font-size: 30px;
-    padding: 20px;
-    text-transform: uppercase;
-    line-height: normal; }
+
+section h1,
+section h2 {
+  color: #000;
+  font-family: 'Circe Bold';
+  font-size: 30px;
+  padding: 20px;
+  text-transform: uppercase;
+  line-height: normal; }
 
 .btn-wrapper {
   text-align: center; }
@@ -290,7 +302,7 @@ footer .block-wrapper {
     text-align: left;
     font-size: 30px; }
   .about-product .bg-img {
-    background-image: url("../images/bg-about.png");
+    background-image: url("../../images/bg-about.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
