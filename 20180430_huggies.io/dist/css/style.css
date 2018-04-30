@@ -47,15 +47,16 @@ table {
 
 @font-face {
   font-family: 'Circe Extra Bold';
-  src: url("../fonts/Circe/Circe-ExtraBold.otf");
+  src: url("../fonts/circe/Circe-ExtraBold.otf");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: 'Circe Bold';
-  src: url("../fonts/Circe/Circe-Bold.otf");
-  font-weight: normal;
-  font-style: normal; }
+    font-family: 'Circe Bold';
+    src: url('../fonts/circe/Circe-Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /*  FLEX SETTINGS */
 /*  FLEX SETTINGS END */
