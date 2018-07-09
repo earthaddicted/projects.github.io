@@ -1,0 +1,40 @@
+@media only screen and (max-width: 968px) {
+
+	.two-column .col {
+		width: 100%;
+		
+		p {
+			text-align: center;
+		}
+	}
+
+	.col-img {
+		display: block;
+		width: 100%;
+		margin: 20px 0;
+		img {
+			width: 100%;
+		}
+	}
+
+	.col-text {
+		padding: 0;
+	}
+
+	.two-column {
+		margin: 20px 0;
+	}
+
+	.about-product h1 {
+	    padding:  0;
+	}
+
+	.about-product h2 {
+	    text-align: center;
+	}
+
+	.col {
+		min-width: 280px;
+		margin: auto;
+	}
+}
