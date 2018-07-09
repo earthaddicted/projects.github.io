@@ -1,0 +1,23 @@
+
+@media only screen and (max-width: 1024px) {
+	.content-block {
+    	width: 100%;
+	}
+
+	.section-soon {
+		.round-logo {
+			width: auto;
+		}
+	}
+}
+@media only screen and (max-width: 1300px) {
+	.section-soon {
+		.round-logo  {
+			img {
+				left: -20vw;
+
+			}
+		}
+	}
+
+}

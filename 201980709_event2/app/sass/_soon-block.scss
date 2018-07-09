@@ -1,0 +1,391 @@
+/* ========= main styles ========= */
+
+body {
+    font-family: 'DinPro';
+    font-weight: normal;
+    position: relative;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    /* background-color: #23c089; */
+    .scroll {
+        background-color: #23c089;
+    }
+}
+
+.h-wrapper,
+.s-wrapper {
+    max-width: 960px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+
+.s-wrapper__inner {
+    max-width: 480px;
+    padding: 50px 0;
+}
+
+.s-wrapper__inner-decor {
+    background-color: #ff7d59;
+    width: 597px;
+    margin: 0 45px 0 35px;
+}
+
+
+ul {
+    display: flex;
+    li {
+        a {
+            text-transform: uppercase;
+            letter-spacing: 3.45px;
+            color: #fff;
+            margin: 30px 80px 30px 0;
+            // padding: 4px 12px 15px 4px;
+            padding: 4px 0 15px;
+            font-size: 16px;
+            font-weight: bold;
+            border-bottom: 3px solid transparent;
+
+            &:hover {
+                border-bottom: 3px solid #ff7d59;
+            }
+        }
+    }
+
+    .special-ancor a {
+        padding: 4px 12px;
+        background-color: #ff7d59;
+    }
+}
+
+.section {
+    text-align: left;
+    font-family: 'DinPro';
+
+    &__dark-c {
+
+        p {
+            color: #828282;
+        }
+    }
+
+    &__light-c {
+        color: #fff;
+
+        h2,
+        h3 {
+            color: #fff;
+        }
+
+        p {
+            color: #fff;
+        }
+    }
+
+    &__intro {
+        background-image: url('../images/bg/bg-1.png'), linear-gradient(145deg, #23c18a 0%, #24bfbe 46%, #30baff 100%);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 150px;
+        padding-bottom: 90px;
+        padding-bottom: 180px;
+        overflow-y: visible;
+        overflow-x: unset;
+
+    }
+
+    &__about {
+        margin-top: -65px;
+        padding: 0 0 20px;
+        font-size: 18px;
+        font-weight: medium;
+        line-height: 32px;
+
+        img {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+
+        .s-wrapper {
+            display: flex;
+            margin: 50px auto 0;
+
+            &__inner-decor {
+                margin-top: -135px;
+                margin-right: -200px;
+
+            }
+        }
+
+        h2,
+        h3 {
+            color: #4dbd97;
+        }
+
+        p {
+            padding: 30px 0;
+        }
+    }
+
+    &__speakears {
+        margin-top: -90px;
+        background-image:  url('../images/bg/bg-sircles.png'), linear-gradient(158deg, #23c18a 0%, #24bfbe 46%, #30baff 100%);
+        background-repeat: no-repeat;
+        // background-size: cover;
+        background-position: 100% 0%;
+        padding: 115px 0 0;
+
+        .s-wrapper__decor {
+            width: 100%;
+            max-width: 100vw;
+            position: relative;
+            overflow: hidden;
+            // margin-left: 40px;
+        }
+
+        .s-wrapper {
+            position: relative;
+            padding-left: 117px;
+            padding-top: 75px;
+
+            &::before {
+                position: absolute;
+                content: " ";
+                display: block;
+                height: 25px;
+                top: 0;
+                left: 40px;
+                width: 200vw;
+                background:  #4afff9;
+            }
+
+            &::after {
+                position: absolute;
+                content: " ";
+                display: block;
+                width: 25px;
+                top: 0;
+                left: 40px;
+                height: 800vw;
+                background:  #4afff9;
+            }
+        }
+    }
+
+    &__schedule {
+        h2,
+        h3 {
+            color: #ff7d59;
+        }
+
+        .s-wrapper__inner {
+            position: relative;
+            padding-left: 117px;
+            padding-top: 75px;
+            margin: 70px 0 55px 78px;
+            border-left: 25px solid #ff7d59;
+
+            &::before {
+                position: absolute;
+                content: " ";
+                display: block;
+                height: 25px;
+                top: 0;
+                left: 0px;
+                width: 200vw;
+                background:  #ff7d59;
+            }
+
+            &::after {
+                position: absolute;
+                content: " ";
+                display: block;
+                height: 25px;
+                bottom: 0;
+                left: 0px;
+                width: 200vw;
+                background:  #ff7d59;
+            }
+        }
+    }
+}
+/* speakears list */
+.speaker {
+    &-list {
+        position: relative;
+        z-index: 1;
+
+        &__item {
+            display: flex;
+            margin: 40px 0;
+
+
+            &-l {
+                .speaker-info {
+                    h3 {
+                        text-align: left;
+                        margin-left: -63px;
+                    }
+                }
+            }
+
+            &-r {
+                .speaker-photo {
+                    order: 2;
+                }
+
+                .speaker-info {
+                    text-align: right;
+                    z-index: 1;
+
+                    h3 {
+                        text-align: right;
+                        margin-right: -63px;
+                    }
+
+                    .speaker-text {
+                        text-align: right;
+
+                        p {
+                            text-align: right;
+                        }
+                    }
+
+                    blockquote,
+                    .speaker-text__quote {
+                        text-align: left;
+                    }
+                }
+
+            }
+
+        }
+
+    }
+
+    &-photo {
+        width: 343px;
+        height: 343px;
+
+        img {
+            display: block;
+        }
+    }
+
+    &-info {
+        h3 {
+            display: inline-block;
+            // margin-left: -63px;
+            margin-top: 22px;
+            padding: 10px 13px;
+            background-color: #ff7d59;
+        }
+    }
+
+    &-text {
+        max-width: 437px;
+        width: 100%;
+        margin: 0 47px;
+    }
+}
+
+blockquote,
+.speaker-text__quote {
+    position: relative;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+
+    &::before {
+        width: 40px;
+        height: 40px;
+        left: -45px;
+        left: -60px;
+        content: " ";
+        position: absolute;
+        background-image: url('../images/icons/arr-r.png');
+        background-repeat: no-repeat;
+        transform: rotate(-180deg);
+    }
+
+    &::after {
+        width: 40px;
+        height: 40px;
+        right: -45px;
+        content: " ";
+        position: absolute;
+        background-image: url('../images/icons/arr-r.png');
+        background-repeat: no-repeat;
+    }
+}
+/* speakears list END */
+
+
+.s-wrapper__decor {
+    width: 100%;
+    max-width: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.event-data {
+    padding: 30px 0;
+
+    span {
+        font-size: 36px;
+        text-transform: uppercase;
+        letter-spacing: 7.75px;
+
+        &:first-of-type {
+            font-weight: normal;
+        }
+
+        &:nth-of-type(2) {
+            font-weight: bold;
+        }
+    }
+}
+
+.special-btn {
+    a {
+        padding: 10px 30px;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 36px;
+        font-weight: 700;
+        letter-spacing: 7.75px;
+        background-color: #ff7d59;
+        position: relative;
+        border: 3px solid transparent;
+        z-index: 2;
+
+        &:hover {
+            border: 3px solid #fff;
+        }
+    }
+
+    .border {
+        display: flex;
+        background: transparent;
+        border: 3px solid #ff7d59;
+        position: absolute;
+        top: 11px;
+        width: 100%;
+        height: 100%;
+        left: 11px;
+        z-index: -1;
+    }
+}
+
+
+
+/* ========= soon END ========= */
+// @media only screen and (min-width: 1201px) {
+
+// }
